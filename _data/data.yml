@@ -3,148 +3,109 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Jun Wang
-    tagline: Senior Full Stack Developer
-    avatar: profile.png
-    
-    # Sidebar links
-    email:
-    phone:
-    website: goinnovise.com
-    linkedin: jun-wang-3278479
-    github:
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow:
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Profile information
+  name: Jun Wang
+  tagline: Senior Full Stack Developer
+  avatar: profile.png
 
-    #languages:
-      #- idiom: English
-        #level: Native
+  # Sidebar links
+  email:
+  phone:
+  website: goinnovise.com
+  linkedin: jun-wang-3278479
+  github:
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow:
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    interests:
-      - item: AYSO Soccer
-        link:
+  #languages:
+  #- idiom: English
+  #level: Native
 
-      #- item: Fitness
-      #  link:
+  interests:
+    - item: AYSO Soccer
+      link:
 
-      #- item: Travel
-      #  link:
+    #- item: Fitness
+    #  link:
 
-      #- item: Gaming
-      #  link:
+    #- item: Travel
+    #  link:
+
+    #- item: Gaming
+    #  link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Jun is a full stack software development with over 15 years experience. Jun's extensive background includes ReactJS, NodeJs, and .Net. Jun has experience building web apps, mobile apps, and back-end APIs.
+  title: Career Profile
+  summary: |
+    Jun is a full stack software development with over 15 years experience. Jun's extensive background includes ReactJS, NodeJs, and .Net. Jun has experience building web apps, mobile apps, and back-end APIs.
 
 education:
-    - degree: Numerical Simulation, Masters
-      university: Northestern University, 1996
-    - degree: J2EE Programmer Certificate
-      university: UC Irvine, 2004
-    - degree: DBA Certificate
-      university: Oracle, 2000
+  - degree: Numerical Simulation, Masters
+    university: Northestern University, 1996
+  - degree: J2EE Programmer Certificate
+    university: UC Irvine, 2004
+  - degree: DBA Certificate
+    university: Oracle, 2000
 
 experiences:
-    - role: Mobile App Developer In React Native
-      time: November 2019 - Present
-      company: OCCopier
-      location: Irvine, CA
-      details: |
-        Design and develop company mobile app in ReactNative and web admin portal in ReactJS /
-        GraphQL.
+  - role: Senior Software Developer
+    time: June 2020 - Present
+    company: Savvy Lane, on contract by Innovise, LLC
+    location: Edmonds, WA
+    details: |
+      Jun works with software and operations team to completely rebuild Savvy Lane's customer facing portal. Jun provides full-stack support by helping to build the mobile-friendly ReactJs application supported by a NodeJs back-end utilzing GraphQL on the Google Cloud ecosystem. The custom application has integrations with a CMS, SendGrid, Stripe, and Google Data Studio.
 
-    - role: Full Stack Developer
-      time: July 2019 - Oct 2019
-      company: Entech
-      location: Houston, TX
-      details: |
-        Designed, developed, maintained, and supported Leak Detection And Repair app from scratch. Built offline feature for techs working in remote areas.
-        Managed all phases of the system development life cycle (SDLC). Backend is graphQL API over MySQL. Front end was a Progressive Web App app using indexedDB to store data in offline
-        mode. ReactNative was used for mobile apps. Deployed to Heroku with 2 domains. The PWA was stood up with one
-        domain with service worker registered.
+      After completion of the initial MVP, Jun stayed on the project to work closely with the client to build new features and fix bugs.
 
-    - role: Full Stack Developer, Front-End and Mobile
-      time: Feb 2019 - Jun 2019
-      company: Housefolios
-      location: Irvine, CA
-      details: |
-        Designed and developed Housefolios.com - Real Estate Investing tools based on NodeJS / GraphQL
-        API.  Front-end was written in ReactJS, mobile app in ReactNative, API in GraphQL / MongoDB.
-        Worked with a team of 5 developers. Jun was the senior developer on the project who was asked tasked with helping train Junior developers on ReactJS and
-        GraphQL API. Highly experienced and skilled Agile environment.
+  - role: Mobile App Developer In React Native
+    time: November 2019 - June, 2020
+    company: OCCopier
+    location: Irvine, CA
+    details: |
+      Designed and developed company mobile app in ReactNative and web admin portal in ReactJS /
+      GraphQL.
 
-    - role: Front End Engineer
-      time: Aug 2018 - Feb 2018
-      company: Ingram Micro
-      location: Irvine, CA
-      details: |
-        Refactored a Canadian site for the company's e-commerce platform for the English and French version.
-        Collaborated with a diverse team of UX designers, front-end developers, and backend engineers.
-        Was responsible for designing and developing UI pages with components in ReactJS, SCSS, CSS, and jQuery.
-        Worked in a highly experienced and skilled Agile environment.
-        
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  - role: Full Stack Developer
+    time: July 2019 - Oct 2019
+    company: Entech
+    location: Houston, TX
+    details: |
+      Designed, developed, maintained, and supported Leak Detection And Repair app from scratch. Built offline feature for techs working in remote areas.
+      Managed all phases of the system development life cycle (SDLC). Backend is graphQL API over MySQL. Front end was a Progressive Web App app using indexedDB to store data in offline
+      mode. ReactNative was used for mobile apps. Deployed to Heroku with 2 domains. The PWA was stood up with one
+      domain with service worker registered.
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - role: Full Stack Developer, Front-End and Mobile
+    time: Feb 2019 - Jun 2019
+    company: Housefolios
+    location: Irvine, CA
+    details: |
+      Designed and developed Housefolios.com - Real Estate Investing tools based on NodeJS / GraphQL
+      API.  Front-end was written in ReactJS, mobile app in ReactNative, API in GraphQL / MongoDB.
+      Worked with a team of 5 developers. Jun was the senior developer on the project who was asked tasked with helping train Junior developers on ReactJS and
+      GraphQL API. Highly experienced and skilled Agile environment.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+  - role: Front End Engineer
+    time: Aug 2018 - Feb 2018
+    company: Ingram Micro
+    location: Irvine, CA
+    details: |
+      Refactored a Canadian site for the company's e-commerce platform for the English and French version.
+      Collaborated with a diverse team of UX designers, front-end developers, and backend engineers.
+      Was responsible for designing and developing UI pages with components in ReactJS, SCSS, CSS, and jQuery.
+      Worked in a highly experienced and skilled Agile environment.
 
 skills:
-    title: Skills &amp; Proficiencies
-    languages: "JavaScript, Java, C#, SQL"
-    frameworks: "ReactJs, NodeJs, GraphQL, Apollo, React Native, Bootstrap"
-    tools: "Windows, Visual Studio, VS Code, Agile, Scrum"
-    operations: "AWS"
-    other: "Leading Teams, Mentor, Git, Azure, MySql, MongoDB"
+  title: Skills &amp; Proficiencies
+  languages: "JavaScript, Java, C#, SQL"
+  frameworks: "ReactJs, NodeJs, GraphQL, Apollo, React Native, Bootstrap"
+  tools: "Windows, Visual Studio, VS Code, Agile, Scrum"
+  operations: "AWS"
+  other: "Google Cloud, Firebase, Git, Azure, MySql, MongoDB, Firestore"
