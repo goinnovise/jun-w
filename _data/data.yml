@@ -56,7 +56,16 @@ education:
 
 experiences:
   - role: Senior Software Developer
-    time: June 2020 - Present
+    time: July 2022 - February 2023
+    company: GoGuardian, on contract by Innovise, LLC
+    location: California, USA
+    details: |
+      Jun built a ReactJs web application to interface with an existing API built by a different team. It was quickly realized that Jun was capable of doing further developement on the back-end system and he also took over those reponsibilities. He introduced and demonstrated unit testing, end-to-end testing, and other quality assurance measures.
+
+      Jun completed his project ahead of schedule and began helping his teammates in other areas.
+
+  - role: Senior Software Developer
+    time: June 2020 - July 2022
     company: Savvy Lane, on contract by Innovise, LLC
     location: Edmonds, WA
     details: |
@@ -104,8 +113,8 @@ experiences:
 
 skills:
   title: Skills &amp; Proficiencies
-  languages: "JavaScript, Java, C#, SQL"
-  frameworks: "ReactJs, NodeJs, GraphQL, Apollo, React Native, Bootstrap"
+  languages: "JavaScript, GoLang, Java, C#, SQL"
+  frameworks: "ReactJs, NodeJs, GraphQL, Apollo, React Native, Bootstrap, Ant Design"
   tools: "Windows, Visual Studio, VS Code, Agile, Scrum"
-  operations: "AWS"
+  operations: "AWS, Jira"
   other: "Google Cloud, Firebase, Git, Azure, MySql, MongoDB, Firestore"
